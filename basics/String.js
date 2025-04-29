@@ -9,11 +9,20 @@ console.log(gameName[0]);
 console.log(gameName.__proto__);
 
 
+
+//touppercase charAt indexof
+
+
 console.log(gameName.length)
 console.log(gameName.toUpperCase())
 console.log(gameName.charAt(2))
 console.log(gameName.indexOf('b'))
 
+
+
+
+
+//slice & substring
 
 const newString = gameName.substring(0,3)
 console.log(newString)
@@ -21,6 +30,22 @@ console.log(newString)
 const anotherString = gameName.slice(-3,3)
 console.log(anotherString);
 
+
+
+
+//trim
+
 const newStringOne = "     abcdef      ";
 console.log(newStringOne);
 console.log(newStringOne.trim());
+
+
+
+
+
+//Replace include & split
+
+const url ="http://ismailniazi.com/gudyrs%20gu)"
+console.log(url.replace("%20" , "_"))
+console.log(url.includes("niazi"));
+console.log(gameName.split("-"));
