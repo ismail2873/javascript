@@ -15,4 +15,12 @@ console.log(gameName.charAt(2))
 console.log(gameName.indexOf('b'))
 
 
+const newString = gameName.substring(0,3)
+console.log(newString)
 
+const anotherString = gameName.slice(-3,3)
+console.log(anotherString);
+
+const newStringOne = "     abcdef      ";
+console.log(newStringOne);
+console.log(newStringOne.trim());
