@@ -61,7 +61,20 @@ console.log(score);
 const balance = new Number(100);
 console.log(balance);
 console.log(balance.toString().length);
+
+
+//after decimal digits
 console.log(balance.toFixed(1));
 
+
+
+const otherNumber = 23.444;
+console.log(otherNumber.toPrecision(2))
+
+
+//number declaration
+
+const hundred = 100000000
+console.log(hundred.toLocaleString());
 
 
