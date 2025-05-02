@@ -1,4 +1,4 @@
-
+//topic :  Object leterals
 
 const sym = Symbol("xyzs")
 
@@ -21,6 +21,23 @@ console.log(userDetail.email);
 console.log(userDetail["full name"]); //True
 console.log(userDetail.isLoggedIn);
 console.log(userDetail[sym]);
+
+userDetail.email="idhegugdugug.com"
+// Object.freeze(userDetail)       //freeze
+userDetail.email="ihweihwih.com"
+console.log(userDetail);
+
+userDetail.greeting=function(){
+    console.log("hello user");
+    
+}
+userDetail.greetingTwo=function(){
+    console.log(`hello user ${this.name}`);
+    
+}
+
+console.log(userDetail.greeting());
+console.log(userDetail.greetingTwo());
 
 
 
